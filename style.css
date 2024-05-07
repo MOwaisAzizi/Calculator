@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+div {
+  cursor: pointer;
+}
+.col:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+.input1 {
+  height: 45px;
+  text-align: start;
+  counter-reset: blue;
+  font-size: larger;
+  cursor: auto;
+}
+.clear,
+.power,
+.dev,
+.add,
+.equal,
+.mult,
+.modul,
+.ashar,
+.zero,
+.modlos,
+.sub {
+  background-color: rgb(238, 242, 242);
+}
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight,
+.nine {
+  background-color: rgb(41, 233, 243);
+}
+.number:hover {
+  background-color: rgb(61, 214, 222);
+}
